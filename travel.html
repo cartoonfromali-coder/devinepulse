@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destinations - DevinePulse</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- SHARED HEADER -->
+    <div id="header"></div>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow">
+        
+        <!-- Category Hero Banner -->
+        <section class="relative bg-gradient-to-r from-sky-600 to-indigo-700 text-white py-16 px-4 text-center">
+            <div class="max-w-3xl mx-auto space-y-4">
+                <span class="bg-white/15 text-white text-xs font-bold px-3.5 py-1.5 rounded-full uppercase tracking-wider backdrop-blur-sm inline-block">Wanderlust Escapes</span>
+                <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight">Travel Destinations Collection</h1>
+                <p class="text-base sm:text-lg text-sky-100 max-w-xl mx-auto">Discover breathtaking hidden escapes, world-class city guides, and smart packing checklists for your next adventure.</p>
+            </div>
+        </section>
+
+        <!-- 12 Articles Grid Section -->
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-10 gap-4">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Trending Travel Articles</h2>
+                    <p class="text-slate-500 text-sm mt-1">Explore all 12 handpicked articles in our travel category.</p>
+                </div>
+                <span class="text-xs font-bold bg-sky-100 text-sky-700 px-3 py-1.5 rounded-xl">12 Articles Available</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1. Main Featured Travel Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-plane-departure text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">6 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="10-breathtaking-hidden-escapes-to-visit-this-year.html" class="hover:text-sky-600 transition">10 Breathtaking Hidden Escapes to Visit This Year</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Escape the tourist crowds and explore these serene, off-the-beaten-path destinations worldwide.</p>
+                        <a href="10-breathtaking-hidden-escapes-to-visit-this-year.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 2. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-suitcase-rolling text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">4 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="ultimate-carry-on-packing-hacks-for-light-travelers.html" class="hover:text-sky-600 transition">Ultimate Carry-On Packing Hacks for Light Travelers</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Learn how to pack two weeks of outfits into a single carry-on bag without wrinkles.</p>
+                        <a href="ultimate-carry-on-packing-hacks-for-light-travelers.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 3. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-mountain-sun text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="solo-hiking-safety-tips-for-beginners.html" class="hover:text-sky-600 transition">Solo Hiking Safety Tips for Beginners Exploring Mountains</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Essential gear, navigation apps, and survival guidelines for your first solo trail trek.</p>
+                        <a href="solo-hiking-safety-tips-for-beginners.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 4. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-city text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">7 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="48-hour-weekend-itinerary-european-capitals.html" class="hover:text-sky-600 transition">48-Hour Weekend Itinerary in Historic European Capitals</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Maximize your short weekend trip with optimized routes, cafes, and iconic landmarks.</p>
+                        <a href="48-hour-weekend-itinerary-european-capitals.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 5. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-camera-retro text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="how-to-capture-cinematic-travel-photos-with-phone.html" class="hover:text-sky-600 transition">How to Capture Cinematic Travel Photos with Your Phone</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Master lighting angles, rule of thirds, and editing presets for stunning vacation shots.</p>
+                        <a href="how-to-capture-cinematic-travel-photos-with-phone.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 6. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-passport text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">4 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="budget-travel-secrets-how-to-find-cheap-flights.html" class="hover:text-sky-600 transition">Budget Travel Secrets: How to Find Cheap Flights Online</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Discover hidden aggregator tricks, error fares, and best booking windows to save big.</p>
+                        <a href="budget-travel-secrets-how-to-find-cheap-flights.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 7. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-umbrella-beach text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">6 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="tropical-island-retreats-with-turquoise-waters.html" class="hover:text-sky-600 transition">Tropical Island Retreats with Pristine Turquoise Waters</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Unwind on peaceful white-sand beaches and experience world-class tropical snorkeling.</p>
+                        <a href="tropical-island-retreats-with-turquoise-waters.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 8. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-route text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="ultimate-road-trip-playlist-route-checklist.html" class="hover:text-sky-600 transition">Ultimate Road Trip Playlist & Route Planning Checklist</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Everything you need for a seamless cross-country driving adventure with friends.</p>
+                        <a href="ultimate-road-trip-playlist-route-checklist.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 9. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-campground text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">4 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="glamping-under-the-stars-luxury-camping.html" class="hover:text-sky-600 transition">Glamping Under the Stars: Luxury Camping Experiences</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Combine the beauty of nature with high-end comfort in scenic glamping pods.</p>
+                        <a href="glamping-under-the-stars-luxury-camping.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 10. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-train text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="scenic-rail-journeys-unforgettable-views.html" class="hover:text-sky-600 transition">Scenic Rail Journeys That Offer Unforgettable Views</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Sit back and watch magnificent valleys, snow peaks, and coastlines pass by train.</p>
+                        <a href="scenic-rail-journeys-unforgettable-views.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 11. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-utensils text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">4 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="foodies-guide-to-street-markets-across-globe.html" class="hover:text-sky-600 transition">A Foodie's Guide to Street Markets Across the Globe</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Taste authentic local delicacies and navigate vibrant night food markets like a pro.</p>
+                        <a href="foodies-guide-to-street-markets-across-globe.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 12. Article -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-globe text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">6 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="essential-apps-and-gear-every-modern-traveler-needs.html" class="hover:text-sky-600 transition">Essential Apps and Gear Every Modern Traveler Needs</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Offline maps, translation tools, and universal adapters to stay connected anywhere.</p>
+                        <a href="essential-apps-and-gear-every-modern-traveler-needs.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Read Full Article <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SHARED FOOTER -->
+    <div id="footer"></div>
+
+    <!-- SCRIPTS -->
+    <script src="header.js" defer></script>
+    <script src="footer.js" defer></script>
+
+</body>
+</html>

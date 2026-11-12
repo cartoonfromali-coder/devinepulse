@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevinePulse - Inspiration, Trends & Lifestyle</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- SHARED HEADER -->
+    <div id="header"></div>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow">
+        
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-tr from-violet-700 via-indigo-600 to-violet-800 text-white py-20 px-4 text-center">
+            <div class="max-w-3xl mx-auto space-y-6">
+                <span class="bg-white/15 text-white text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-wider backdrop-blur-sm inline-block shadow-sm">Welcome to DevinePulse</span>
+                <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">Inspiration, Trends & Lifestyle Stories</h1>
+                <p class="text-base sm:text-lg text-violet-100 max-w-2xl mx-auto">Explore handpicked daily guides across food, travel, nature, mindset quotes, fashion, and home decor.</p>
+                <div class="flex flex-wrap justify-center gap-3 pt-2">
+                    <a href="food.html" class="bg-white text-violet-700 font-bold px-6 py-3 rounded-xl shadow-lg hover:bg-violet-50 transition">Explore Food</a>
+                    <a href="travel.html" class="bg-violet-900/50 border border-violet-400/30 text-white font-bold px-6 py-3 rounded-xl hover:bg-violet-900 transition backdrop-blur-sm">Explore Travel</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPLORE CATEGORIES SECTION (Distinct Category Cards Grid) -->
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-10 gap-4">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Explore By Categories</h2>
+                    <p class="text-slate-500 text-sm mt-1">Dive into our curated niches and discover articles tailored to your lifestyle.</p>
+                </div>
+                <span class="text-xs font-bold bg-violet-100 text-violet-700 px-3 py-1.5 rounded-xl">All Niches</span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- 1. Food Category -->
+                <a href="food.html" class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition border border-slate-100 flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-2xl bg-orange-50 text-orange-600 flex-shrink-0 flex items-center justify-center text-2xl group-hover:scale-110 transition">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs text-orange-600 font-bold uppercase tracking-wider block mb-1">Category</span>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-orange-600 transition leading-snug">Food & Recipes</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-1">Delicious quick meals & kitchen guides</p>
+                    </div>
+                </a>
+
+                <!-- 2. Travel Category -->
+                <a href="travel.html" class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition border border-slate-100 flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-2xl bg-sky-50 text-sky-600 flex-shrink-0 flex items-center justify-center text-2xl group-hover:scale-110 transition">
+                        <i class="fa-solid fa-plane-departure"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs text-sky-600 font-bold uppercase tracking-wider block mb-1">Category</span>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-sky-600 transition leading-snug">Travel Escapes</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-1">Hidden gems & global adventure tips</p>
+                    </div>
+                </a>
+
+                <!-- 3. Nature Category -->
+                <a href="nature.html" class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition border border-slate-100 flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-2xl bg-emerald-50 text-emerald-600 flex-shrink-0 flex items-center justify-center text-2xl group-hover:scale-110 transition">
+                        <i class="fa-solid fa-mountain"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs text-emerald-600 font-bold uppercase tracking-wider block mb-1">Category</span>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-emerald-600 transition leading-snug">Nature & Wildlife</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-1">Majestic peaks & serene forest trails</p>
+                    </div>
+                </a>
+
+                <!-- 4. Quotes Category -->
+                <a href="quotes.html" class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition border border-slate-100 flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-2xl bg-amber-50 text-amber-600 flex-shrink-0 flex items-center justify-center text-2xl group-hover:scale-110 transition">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs text-amber-600 font-bold uppercase tracking-wider block mb-1">Category</span>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-amber-600 transition leading-snug">Mindset Quotes</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-1">Timeless wisdom & daily motivation</p>
+                    </div>
+                </a>
+
+                <!-- 5. Fashion Category -->
+                <a href="fashion.html" class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition border border-slate-100 flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-2xl bg-rose-50 text-rose-600 flex-shrink-0 flex items-center justify-center text-2xl group-hover:scale-110 transition">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs text-rose-600 font-bold uppercase tracking-wider block mb-1">Category</span>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-rose-600 transition leading-snug">Fashion & Style</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-1">Seasonal trends & capsule wardrobe</p>
+                    </div>
+                </a>
+
+                <!-- 6. Home Decor Category -->
+                <a href="homedecor.html" class="group bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition border border-slate-100 flex items-center gap-5">
+                    <div class="w-16 h-16 rounded-2xl bg-teal-50 text-teal-600 flex-shrink-0 flex items-center justify-center text-2xl group-hover:scale-110 transition">
+                        <i class="fa-solid fa-couch"></i>
+                    </div>
+                    <div>
+                        <span class="text-xs text-teal-600 font-bold uppercase tracking-wider block mb-1">Category</span>
+                        <h3 class="text-lg font-bold text-slate-900 group-hover:text-teal-600 transition leading-snug">Home Decor</h3>
+                        <p class="text-xs text-slate-500 mt-1 line-clamp-1">Cozy living rooms & smart styling</p>
+                    </div>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- 6 Featured Articles Grid (1 from each Niche) -->
+        <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-10 gap-4">
+                <div>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Trending Across Categories</h2>
+                    <p class="text-slate-500 text-sm mt-1">Discover featured stories from all our lifestyle niches.</p>
+                </div>
+                <span class="text-xs font-bold bg-violet-100 text-violet-700 px-3 py-1.5 rounded-xl">Featured Highlights</span>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- 1. FOOD ARTICLE -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-orange-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Food</span>
+                        <i class="fa-solid fa-utensils text-4xl text-orange-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="food.html" class="hover:text-orange-600 transition">5 Quick 15-Minute Dinner Ideas for Busy Weeknights</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Discover mouth-watering, lightning-fast recipes that don't compromise on flavor or nutrition.</p>
+                        <a href="food.html" class="text-orange-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Browse Food Articles <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 2. TRAVEL ARTICLE -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-sky-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-sky-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Travel</span>
+                        <i class="fa-solid fa-plane-departure text-4xl text-sky-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">6 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="travel.html" class="hover:text-sky-600 transition">10 Breathtaking Hidden Escapes to Visit This Year</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Escape the tourist crowds and explore these serene, off-the-beaten-path destinations worldwide.</p>
+                        <a href="travel.html" class="text-sky-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Browse Travel Articles <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 3. NATURE ARTICLE -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-emerald-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Nature</span>
+                        <i class="fa-solid fa-mountain text-4xl text-emerald-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="nature.html" class="hover:text-emerald-600 transition">Majestic Mountain Peaks and Alpine Trails to Explore</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Immerse yourself in the serene beauty of the natural world with expert hiking insights.</p>
+                        <a href="nature.html" class="text-emerald-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Browse Nature Articles <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 4. QUOTES ARTICLE -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-amber-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Quotes</span>
+                        <i class="fa-solid fa-quote-left text-4xl text-amber-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">4 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="quotes.html" class="hover:text-amber-600 transition">50 Inspiring Quotes on Resilience and Inner Strength</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Reflect on powerful quotes and actionable advice designed to elevate your daily mindset.</p>
+                        <a href="quotes.html" class="text-amber-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Browse Quotes <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 5. FASHION ARTICLE -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-rose-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-rose-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Fashion</span>
+                        <i class="fa-solid fa-shirt text-4xl text-rose-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="fashion.html" class="hover:text-rose-600 transition">Building the Ultimate Minimalist Capsule Wardrobe</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Discover expert styling advice and modern fashion concepts to upgrade your everyday look.</p>
+                        <a href="fashion.html" class="text-rose-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Browse Fashion Articles <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+                <!-- 6. HOME DECOR ARTICLE -->
+                <article class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition border border-slate-100 flex flex-col">
+                    <div class="h-48 bg-teal-50 flex items-center justify-center relative">
+                        <span class="absolute top-4 left-4 bg-teal-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">Home Decor</span>
+                        <i class="fa-solid fa-couch text-4xl text-teal-400"></i>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow">
+                        <div class="text-xs text-slate-400 mb-2 font-medium">5 min read</div>
+                        <h3 class="text-lg font-bold text-slate-900 mb-3 leading-snug">
+                            <a href="homedecor.html" class="hover:text-teal-600 transition">Cozy Living Room Transformations on a Budget</a>
+                        </h3>
+                        <p class="text-slate-600 text-sm mb-6 flex-grow">Transform your living space with creative interior design ideas and smart storage tips.</p>
+                        <a href="homedecor.html" class="text-teal-600 font-bold text-sm flex items-center gap-1.5 hover:gap-2.5 transition-all">Browse Decor Articles <i class="fa-solid fa-arrow-right text-xs"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SHARED FOOTER -->
+    <div id="footer"></div>
+
+    <!-- SCRIPTS -->
+    <script src="header.js" defer></script>
+    <script src="footer.js" defer></script>
+
+</body>
+</html>
